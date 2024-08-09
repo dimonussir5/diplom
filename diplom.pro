@@ -8,9 +8,10 @@ TEMPLATE = app
 SOURCES += main.cpp \
            mainwindow.cpp
 
-HEADERS += mainwindow.h
+HEADERS += mainwindow.h \
+    PCANBasic.h
 
 FORMS += mainwindow.ui
 
 # Укажите путь к библиотеке и имя библиотеки
-LIBS += -L"C:/Prog/PcanBacic/x64/VC_LIB" -lPCANBasic
+LIBS += -L"C:/PCANBasic/libx64" -lPCANBasic
